@@ -47,8 +47,8 @@ export default {
   border: 1px solid black;
   border-radius: 15px;
   padding: 10px 24px;
-  background: cadetblue;
-  color: beige;
+  background: #858464;;
+  color: #2c3e50;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   width: 50%;
 }

@@ -32,9 +32,10 @@ export default {
   data() {
     return {
       navigation: [
-        { id: 1, title: "Todos", active: true, path: "/", },
-        { id: 2, title: "About Us", active: false, path: "/about-us", },
-        { id: 3, title: "Info", active: false, path: "/info", },
+        { id: 1, title: "Todos", path: "/", },
+        { id: 2, title: "About Us", path: "/about-us", },
+        { id: 3, title: "Info", path: "/info", },
+        { id: 4, title: "Contact Us", path: "/contact", },
       ],
     };
   },
@@ -43,6 +44,7 @@ export default {
   
 <style scoped>
 .header {
+  position: fixed;
   width: 100%;
   background: #998235;
   color: #2c3e50;

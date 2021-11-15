@@ -20,6 +20,11 @@ export default  new Router({
       name: 'info',
       component: () => import('@/views/Info.vue'),
     },
+    { 
+      path: '/contact',
+      name: 'contact',
+      component: () => import('@/views/ContactUs.vue'),
+    },
     
   ]
 })

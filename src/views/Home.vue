@@ -1,5 +1,5 @@
 <template>
-  <div id="home">
+  <div >
     <div class="main-todos">
       <h1>Todo Application</h1>
       <TodoForm @submited="addTodos" />
@@ -79,19 +79,7 @@ export default {
 };
 </script>
 
-<style>
-body {
-  background: #0b2429;
-  margin: 0;
-  padding: 0;
-}
-#home {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<style scoped>
 h1 {
   color: #998235;
 }
